@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
-  <!-- load parameter -->
+  <!-- load parameters -->
   <xacro:property name="vehicle_info" value="${xacro.load_yaml('$(find buggy_vehicle_description)/config/vehicle_info.param.yaml')}"/>
 
   <!-- vehicle body -->
