@@ -8,7 +8,7 @@
     <visual>
       <origin xyz="${vehicle_info['/**']['ros__parameters']['wheel_base']/2.0} 0 0" rpy="${pi/2.0} 0 ${pi/2.0}"/>
       <geometry>
-        <mesh filename="package://buggy_vehicle_description/mesh/buggy_8_seater_new.stl" scale="0.01 0.01 0.01"/>
+        <mesh filename="package://buggy_vehicle_description/mesh/buggy_8_seater_new_yup.stl" scale="0.01 0.01 0.01"/>
       </geometry>
     </visual>
   </link>
